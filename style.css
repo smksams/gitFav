@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #000000;
+    color: #E1E1E6;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+
+main {
+    margin: 0 auto;
+    width: clamp(90rem, 3vw, 112rem);
+
+    padding: 0 5rem;
+}
+
+header {
+    padding: 11.5rem 0 8.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-wrapper {
+    display: flex;
+    gap: .8rem;
+}
+
+.input-wrapper input {
+    max-width: 46.2rem;
+    padding: 1.6rem;
+    background: #06181C;
+    border-radius: .5rem;
+    border: none;
+    color: #E1E1E6;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-wrapper button span svg {
+    display: flex;
+}
+
+.input-wrapper button {
+    display: flex;
+    gap: .8rem;
+    padding: 1.2rem 3.2rem;
+    background: #065E7C;
+    border-radius: .5rem;
+    color: #E1E1E6;
+    text-transform: uppercase;
+
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.input-wrapper button:hover {
+    background-color: white;
+    color: hsl(195, 91%, 25%);
+}
+
+.input-wrapper button:hover span svg path {
+    fill: hsl(195, 91%, 25%);
+}
+
+tbody tr:nth-child(even) {
+    background-color: hsl(192, 65%, 7%);
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead th:first-child {
+    border-top-left-radius: 1.2rem;
+}
+
+thead th:last-child {
+    border-top-right-radius: 1.2rem;
+}
+
+thead tr:nth-child(odd) {
+    background-color: hsl(194, 72%, 13%);
+    border: none;
+}
+
+
+table th {
+    text-align: left;
+    padding: 1.6rem;
+    padding-left: 4rem;
+}
+
+table th:nth-child(4) {
+    width: 17.8rem;
+}
+
+table td {
+    padding: 2.4rem;
+    padding-left: 4rem;
+    padding-right: 0;
+}
+
+a {
+    all: unset;
+    display: flex;
+    gap: 1.6rem;
+    cursor: pointer;
+}
+
+a img {
+    width: 5.6rem;
+    border-radius: 50%;
+}
+
+a h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 160%;
+}
+
+a p {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 160%;
+}
+
+tbody button {
+    all: unset;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 160%;
+
+    color: #F75A68;
+}
+
+tbody button:hover {
+    color: #c53440;
+}
+
+tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 1.2rem;
+}
+
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 1.2rem;
+}
+
+.table-wrapper {
+    border-radius: 1.2rem;
+    border: 1px solid hsl(191, 31%, 42%);
+}
+
+
