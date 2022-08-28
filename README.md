@@ -1,1 +1,1 @@
-# gitFav
+# Github Users Favorites
